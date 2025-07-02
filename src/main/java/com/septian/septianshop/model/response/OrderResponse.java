@@ -2,12 +2,14 @@ package com.septian.septianshop.model.response;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class OrderResponse {
     private Integer id;
+    @JsonProperty("productID")
     private String productId;
     private String productName;
     private BigDecimal amount;
