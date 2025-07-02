@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "205633c2-8214-4aca-8909-3907a77a0b41",
+		"name": "Get Data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18255255"
+	},
+	"item": [
+		{
+			"name": "Get All Data Order",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/order/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"order",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
